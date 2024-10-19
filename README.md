@@ -16,10 +16,8 @@ conda activate aasist_audio_spoofing
 
 3. Install dependencies
 
-4. Download the AASIST Pre-Trained Model: Place the pre-trained AASIST model checkpoint (AASIST.pth) in the models/weights/ directory:
-
-C:\Users\<Your-Username>\Desktop\Reality Defender\aasist\models\weights\AASIST.pth
-
+4. Download the AASIST Pre-Trained Model: Place the pre-trained AASIST model checkpoint (AASIST.pth) in the models/weights/ directory
+   
 # Running the Inference
 
 To run inference on your custom dataset or provided test samples:
@@ -31,7 +29,9 @@ To run inference on your custom dataset or provided test samples:
 python inference.py --config config/AASIST.conf --test_dir C:/path/to/test/samples --output_file inference_results.txt
 
 --config: Path to the configuration file.
+
 --test_dir: Directory containing test FLAC files.
+
 --output_file: File to save the results.
 
   3. View Results: After running inference, the results will be saved in the specified output file (inference_results.txt). Each entry will contain the file name and the spoofing score, indicating whether the audio was classified as genuine or spoofed.
