@@ -42,6 +42,9 @@ The metadata of the test samples is provided in metadata.csv, containing details
 # Key Files
 
 inference.py: The script to run the audio spoof detection on custom test samples.
+
 data_utils.py: Handles dataset loading and preprocessing.
+
 mp3_to_flac.py: Converts MP3 files to FLAC.
+
 wav_to_flac.py: Converts WAV files to FLAC.
