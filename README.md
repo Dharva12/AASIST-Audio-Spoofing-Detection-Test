@@ -1,10 +1,10 @@
 # AASIST-Audio-Spoofing-Detection-Test
 This repository contains the code and files for running audio spoofing detection using the AASIST model. The system detects synthetic (spoofed) audio using a pre-trained AASIST model and processes audio files generated from various Text-to-Speech (TTS) platforms like PlayHT, ElevenLabs, Amazon Polly, and samples from the ASVspoof19 dataset.
 
-#Requirements
+# Requirements
 To ensure you have the correct dependencies, create a virtual environment using the included environment.yaml file. If you don’t have Conda installed, you can install it from here.
 
-#Setup
+# Setup
 1. Clone the repository:
 
 git clone https://github.com/<your-repo-name>.git
