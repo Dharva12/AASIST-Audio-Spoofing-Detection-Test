@@ -37,6 +37,8 @@ To run inference on your custom dataset or provided test samples:
       --output_file: File to save the results.
 
   3. View Results: After running inference, the results will be saved in the specified output file (inference_results.txt). Each entry will contain the file name and the spoofing score, indicating whether the audio was classified as genuine or spoofed.
+  
+  4.  *Optional* : You can change the batch size for processing the number of samples in the config file (AASIST.conf).
 
 # Sample Data
 The metadata of the test samples is provided in metadata.csv, containing details such as the source platform, prompts, settings used, and the model’s classification results.
