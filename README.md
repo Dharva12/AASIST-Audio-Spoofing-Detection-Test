@@ -7,16 +7,18 @@ To ensure you have the correct dependencies, create a virtual environment using 
 # Setup
 1. Clone the repository:
 
-git clone https://github.com/Dharva12/AASIST-Audio-Spoofing-Detection-Test
+   git clone https://github.com/Dharva12/AASIST-Audio-Spoofing-Detection-Test
 
 2. Install the environment: To set up the environment using Conda, run:
 
-conda env create -f environment.yaml
-conda activate aasist_audio_spoofing
+   conda env create -f environment.yaml
+   conda activate aasist_audio_spoofing
 
 3. Install dependencies
 
 4. Download the AASIST Pre-Trained Model: Place the pre-trained AASIST model checkpoint (AASIST.pth) in the models/weights/ directory
+
+   https://github.com/clovaai/aasist
    
 # Running the Inference
 
@@ -26,13 +28,13 @@ To run inference on your custom dataset or provided test samples:
 
   2. Run the Inference Script: Use the following command to run inference on a directory of test samples:
 
-python inference.py --config config/AASIST.conf --test_dir C:/path/to/test/samples --output_file inference_results.txt
+      python inference.py --config config/AASIST.conf --test_dir C:/path/to/test/samples --output_file inference_results.txt
 
---config: Path to the configuration file.
+      --config: Path to the configuration file.
 
---test_dir: Directory containing test FLAC files.
+      --test_dir: Directory containing test FLAC files.
 
---output_file: File to save the results.
+      --output_file: File to save the results.
 
   3. View Results: After running inference, the results will be saved in the specified output file (inference_results.txt). Each entry will contain the file name and the spoofing score, indicating whether the audio was classified as genuine or spoofed.
 
