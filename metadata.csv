@@ -1,0 +1,21 @@
+Sample_ID,Source,Engine,Prompt,Voice,Settings,Post-Processing,Spoofing_Score,Model_Classification
+Sample_01,PlayHT,PlayHT 2.0,Let's see how realistic this sounds,William (US),"Speed: 1.0x, Stability: 0.40, Similarity: 2.00",.wav to .flac,3.9994867,Spoofed
+Sample_02,PlayHT,PlayHT 2.0,Some have accepted it as a miracle without physical explanation.,William (US),"Speed: 0.8x, Stability: 1.00, Similarity: 3.00",.wav to .flac,3.5255578,Spoofed
+Sample_03,PlayHT,PlayHT 2.0,Some have accepted it as a miracle without physical explanation.,Alessandro (Italian),"Speed: 1.0x, Stability: 0.40, Similarity: 2.00",.wav to .flac,-4.2308464,Genuine
+Sample_04,PlayHT,PlayHT 2.0,"People look, but no one ever finds it.",Carmen (Mexican),"Speed: 1.3x, Stability: 0.10, Similarity: 3.00",.wav to .flac,-4.4883237,Genuine
+Sample_05,PlayHT,PlayHT 2.0,"There is, according to legend, a boiling pot of gold at one end.",Sumita (Indian),"Speed: 1.0x, Stability: 0.40, Similarity: 2.00",.wav to .flac,-4.2774663,Genuine
+Sample_06,ElevenLabs,Eleven Multilingual v2,Let's see how realistic this sounds,Jessica,"Stability: 50%, Similarity: 75%, Style Exaggeration: 0%",.mp3 to .flac,0.47145495,Spoofed
+Sample_07,ElevenLabs,Eleven Multilingual v2,Let's see how realistic this sounds,Jessica,"Stability: 50%, Similarity: 75%, Style Exaggeration: 100%",.mp3 to .flac,1.1184292,Spoofed
+Sample_08,ElevenLabs,Eleven English v1,"There is, according to legend, a boiling pot of gold at one end.",Brian,"Stability: 50%, Similarity: 75%",.mp3 to .flac,-1.6315277,Genuine
+Sample_09,ElevenLabs,Eleven English v2,Ask her to bring these things with her from the store.,Liam,"Stability: 50%, Similarity: 75%, Style Exaggeration: 0%",.mp3 to .flac,4.362828,Spoofed
+Sample_10,ElevenLabs,Eleven English v2,Ask her to bring these things with her from the store.,Liam,"Stability: 100%, Similarity: 100%, Style Exaggeration: 100%",.mp3 to .flac,4.607647,Spoofed
+Sample_11,Amazon Polly,Neural,"There is, according to legend, a boiling pot of gold at one end.",Gregory (US),NA,.mp3 to .flac,-4.2932224,Genuine
+Sample_12,Amazon Polly,Neural,"People look, but no one ever finds it.",Joanna (US),NA,.mp3 to .flac,-1.115079,Genuine
+Sample_13,Amazon Polly,Standard,Ask her to bring these things with her from the store.,Geraint (Welsh),NA,.mp3 to .flac,-3.1623971,Genuine
+Sample_14,Amazon Polly,Neural,Some have accepted it as a miracle without physical explanation.,Matthew (US),Style: Newscaster,.mp3 to .flac,-3.8039267,Genuine
+Sample_15,Amazon Polly,Standard,"There is, according to legend, a boiling pot of gold at one end.",Aditi (Indian),Style: Whisper,.mp3 to .flac,-1.1865851,Genuine
+LA_E_4311043,ASVspoof19 Eval,NA,NA,NA,NA,NA,3.8464766,Spoofed
+LA_E_8411060,ASVspoof19 Eval,NA,NA,NA,NA,NA,5.066361,Spoofed
+LA_E_8411845,ASVspoof19 Eval,NA,NA,NA,NA,NA,-2.7512786,Genuine
+LA_E_9296375,ASVspoof19 Eval,NA,NA,NA,NA,NA,6.3667016,Spoofed
+LA_E_9297933,ASVspoof19 Eval,NA,NA,NA,NA,NA,5.616393,Spoofed
